@@ -1,0 +1,39 @@
+/* Write your code here. */
+.result-card {
+  background-color: #ffffff33;
+  display: flex;
+  border-radius: 10px;
+  border: 1px #ffffff30 solid;
+}
+.score-card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.score-card-image {
+  width: 200px;
+}
+.result {
+  font-size: 40px;
+}
+.result-score {
+  color: #6a59ff;
+  margin: 0;
+  padding: 0;
+}
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+.play-again-button {
+  background-color: #ffce27;
+  border: 0;
+  border-radius: 10px;
+  color: #3d3d3d;
+  padding: 10px;
+  font-weight: 600;
+  margin: 10px;
+}

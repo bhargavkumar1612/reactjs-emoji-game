@@ -1,0 +1,17 @@
+/* Write your code here. */
+.card {
+  background-color: #ffffff33;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.emoji {
+  width: 70%;
+}

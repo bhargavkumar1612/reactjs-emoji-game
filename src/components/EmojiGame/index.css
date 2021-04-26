@@ -1,0 +1,19 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.emoji-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  justify-content: center;
+}
+.win-lose-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
