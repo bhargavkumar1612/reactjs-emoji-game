@@ -12,7 +12,7 @@ const YouWon = props => {
     <>
       <div className="score-card">
         <h1 className="result">You Won</h1>
-        <h1 className="no-padding">Score</h1>
+        <h1 className="result no-padding">Score</h1>
         <h1 className="result-score">{score}/12</h1>
         <button className="play-again-button" type="button" onClick={resetGame}>
           Play Again
@@ -30,8 +30,8 @@ const YouLose = props => {
   return (
     <>
       <div className="score-card">
-        <h1>You Lose</h1>
-        <h1 className="no-padding">Score</h1>
+        <h1 className="result">You Lose</h1>
+        <h1 className="result no-padding">Score</h1>
         <h1 className="result-score">{score}/12</h1>
         <button className="play-again-button" type="button" onClick={resetGame}>
           Play Again
